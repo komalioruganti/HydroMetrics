@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "react-router-dom": "^6.20.1"
+  },
+  "dependencies": {
+    "react-helmet": "^6.1.0"
+  }
+}
