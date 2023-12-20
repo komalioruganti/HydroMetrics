@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+.community-title{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.community-body{
+    margin-left: 70px;
+    width: 90%;
+    height: 800px;
+    background-color: #D9D9D9;
+    border-radius: 2.5%;
+  }
+
+  .center-text {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /* Make sure to include the Montserrat font in your project */
+    margin-bottom: 40px;
+}
+
+.center-text h1 {
+    color: #060429; /* Black text color */
+}
+
+
+section {
+    margin: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.join-community {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+hr{
+    height: 3px;
+}
+
+
+.join{
+    margin-left: 50px;
+     color: #060429;
+}
+.community-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.community-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+#searchButton {
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+
+
+.button-container {
+    display: flex;
+    background-color: #570c69;
+    margin-left: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.button-container div {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button-container img {
+    max-height: 80px;
+    margin-right: 10px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.hero-img{
+    margin-right: 270px;
+}
+.eco-img{
+    margin-right: 255px;
+}
+.join-button {
+    width: 95px;
+    height: 45px;
+    background-color: #2ecc71;
+    border-radius: 5px;
+    margin-top: 2.5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}

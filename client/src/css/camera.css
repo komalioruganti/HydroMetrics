@@ -1,0 +1,16 @@
+.web-cam{
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid white;
+    width:fit-content;
+    margin-top:30px;
+}
+.cam-btn{
+    background-color: #8080D7;
+}
+.p-cam-text{
+    text-align: center;
+}
+.water-footprint{
+    text-align: center;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display District Boundaries - Telangana</title>
+    <style>
+      #map {
+        height: 100vh; /* Set a smaller map height */
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <script>
+      var userInput = prompt("Please enter a number:");
+      var i = parseInt(userInput);
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 18.825, lng: 79.912 }, // Adjusted initial center
+          zoom: 8, // Set an initial zoom level
+        });
+
+        // Load the GeoJSON data
+        map.data.loadGeoJson("districts.json");
+
+        // Style the polygons based on district properties
+        map.data.setStyle(function (feature) {
+          var districtColor = feature.getProperty("D_N"); // Get district name property
+          let colors = ["blue", "red", "yellow"];
+          // Assign different colors based on district name
+          var fillColor;
+          if (districtColor === "ADILABAD") {
+            fillColor = colors[i]; // Green for ADILABAD
+          } else if (districtColor === "HYDERABAD") {
+            fillColor = "blue"; // Blue for HYDERABAD
+          } else if (districtColor === "KHAMMAM") {
+            fillColor = "yellow"; // Blue for HYDERABAD
+          } else if (districtColor === "WARANGAL") {
+            fillColor = "blue"; // Blue for HYDERABAD
+          } else if (districtColor === "KARIMNAGAR") {
+            fillColor = "yellow"; // Blue for HYDERABAD
+          } else if (districtColor === "NALAGONDA") {
+            fillColor = "blue"; // Blue for HYDERABAD
+          } else if (districtColor === "NIZAMABAD") {
+            fillColor = "blue"; // Blue for HYDERABAD
+          } else {
+            fillColor = "red"; // Grey for other districts
+          }
+
+          return {
+            fillColor: fillColor,
+            strokeWeight: 1,
+          };
+        });
+      }
+    </script>
+
+    <!-- Replace 'YOUR_API_KEY' with your actual Google Maps API key -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7QQptxwNadoMhi5cyRuEVpbwZ8vTq-rk&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>

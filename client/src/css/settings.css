@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+.settings-title{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.settings-body{
+    margin-left: 70px;
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 90%;
+    height: 1000px;
+    background-color: #D9D9D9;
+    border-radius: 2.5%;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .settings-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-section {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.settings-h3{
+    color: #333;
+}
+.change-password{
+    margin-top: 5px;
+    color: #333;
+}
+button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+.change-password-section {
+    /* display: none; */
+    display:block;
+    margin-top: 20px;
+}
+
+.settings-input{
+    border-radius: 20px;
+    width: fit-content;
+    height: 30px;
+}

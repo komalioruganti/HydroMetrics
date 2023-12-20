@@ -1,0 +1,209 @@
+body{
+    color:white;
+  }
+  .slide-container{
+      background-color: #171C30;
+      height:350px;
+      width:1000px;
+      text-align: center;
+      margin-top:1%;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  .slide-title{
+  font-size: 28px;
+  font-weight: 600;
+  padding: 30px;
+  color:white;
+  }
+  .slide-input{
+      background-color: #171C30;
+      border: none;
+          outline: none;
+          border-bottom: 1px solid #ccc;
+          color:#8EFAFA;
+          width:30%;
+          font-size: 40px;
+          padding: 30px;
+          text-align: center;
+  }
+  .rating svg {
+      height: 3rem;
+      width: 3rem;
+      margin: 0.5rem;
+      margin-top: 30px;
+    }
+    
+    #radios label {
+      position: relative;
+    }
+    
+    input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+    }
+    
+    input[type="radio"] + svg {
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+    }
+    
+    input + svg {
+      cursor: pointer;
+    }
+    
+    input[class="super-happy"]:hover + svg,
+    input[class="super-happy"]:checked + svg {
+      fill: rgb(0, 204, 79);
+    }
+    
+    input[class="super-sad"]:hover + svg,
+    input[class="super-sad"]:checked + svg{
+      fill: rgb(239, 42, 16);
+    }
+    
+    input[class="super-happy1"]:hover + svg,
+    input[class="super-happy1"]:checked + svg {
+      fill: rgb(0, 204, 79);
+    }
+    
+    input[class="super-sad1"]:hover + svg,
+    input[class="super-sad1"]:checked + svg{
+      fill: rgb(239, 42, 16);
+    }
+    .rating-form-2 .super-happy:hover + svg,
+  .rating-form-2 .super-happy:checked + svg,
+  .rating-form-2 .super-happy:focus + svg {
+      fill: rgb(0, 204, 79);
+  }
+  .rating-form-2 .super-sad:hover + svg,
+  .rating-form-2 .super-sad:checked + svg,
+  .rating-form-2 .super-sad:focus + svg {
+      fill: rgb(0, 204, 79);
+  }
+  .rating .super-sad:hover + svg,
+  .rating .super-sad:checked + svg,
+  .rating .super-sad:focus + svg {
+      fill: rgb(239, 42, 16);
+  }
+  .rating-form-3 .super-happy:hover + svg,
+  .rating-form-3 .super-happy:checked + svg,
+  .rating-form-3 .super-happy:focus + svg {
+      fill: rgb(0, 204, 79);
+  }
+  .rating-form-4 .super-happy2:hover + svg,
+  .rating-form-4 .super-happy2:checked + svg,
+  .rating-form-4 .super-happy2:focus + svg {
+      fill: rgb(0, 204, 79);
+  }
+  .rating-form-4 .super-sad:hover + svg,
+  .rating-form-4 .super-sad:checked + svg,
+  .rating-form-4 .super-sad:focus + svg {
+      fill: rgb(239, 42, 16);
+  }
+  .rating-form-5 .super-happy:hover + svg,
+  .rating-form-5 .super-happy:checked + svg,
+  .rating-form-5 .super-happy:focus + svg {
+      fill: rgb(0, 204, 79);
+  }
+  .rating-form-5 .super-sad:hover + svg,
+  .rating-form-5 .super-sad:checked + svg,
+  .rating-form-5 .super-sad:focus + svg {
+      fill: rgb(239, 42, 16);
+  }
+  .rating-form-6 .super-happy:hover + svg,
+  .rating-form-6 .super-happy:checked + svg,
+  .rating-form-6 .super-happy:focus + svg {
+      fill: rgb(0, 204, 79);
+  }
+  .rating-form-6 .super-sad:hover + svg,
+  .rating-form-6 .super-sad:checked + svg,
+  .rating-form-6 .super-sad:focus + svg {
+      fill: rgb(239, 42, 16);
+  }
+  .rating-form-7 .super-happy:hover + svg,
+  .rating-form-7 .super-happy:checked + svg,
+  .rating-form-7 .super-happy:focus + svg {
+      fill: rgb(0, 204, 79);
+  }
+  .rating-form-7 .super-sad:hover + svg,
+  .rating-form-7 .super-sad:checked + svg,
+  .rating-form-7 .super-sad:focus + svg {
+      fill: rgb(239, 42, 16);
+  }
+  .rating-form-8 .super-happy:hover + svg,
+  .rating-form-8 .super-happy:checked + svg,
+  .rating-form-8 .super-happy:focus + svg {
+      fill: rgb(0, 204, 79);
+  }
+  .rating-form-8 .super-sad:hover + svg,
+  .rating-form-8 .super-sad:checked + svg,
+  .rating-form-8 .super-sad:focus + svg {
+      fill: rgb(239, 42, 16);
+  }
+  .rating-form-9 .super-happy:hover + svg,
+  .rating-form-9 .super-happy:checked + svg,
+  .rating-form-9 .super-happy:focus + svg {
+      fill: rgb(0, 204, 79);
+  }
+  .rating-form-9 .super-sad:hover + svg,
+  .rating-form-9 .super-sad:checked + svg,
+  .rating-form-9 .super-sad:focus + svg {
+      fill: rgb(239, 42, 16);
+  }
+    .center{
+      text-align: center;
+    }
+    .slide-btn{
+      background-color: #8080D7;
+      color: white;
+      width:40%;
+      height:22px;
+      padding:2px 4px;
+      font-size: 14px;
+      margin:8px auto;
+      cursor:pointer;
+    }
+    .slide-btn:hover,.slide-btn::selection{
+      background-color:#9999e8 ;
+    }
+    .q-water-footprint{
+      text-align: center;
+      padding-top: 8%;
+      font-size: 20px;
+    }
+    .q-wf-number{
+      color: #8EFAFA;
+      font-size: 22px;
+    }
+    .text-none{
+      text-decoration: none;
+    }
+    .q-submit{
+      color:white;
+      background-color: #88d6d6;
+      width:fit-content;
+      height:30px;
+      padding-top:5px;
+      text-align:center;
+      padding-right:5px;
+      padding-left:5px;
+      margin-left:auto;
+      margin-right:auto;
+      
+      margin-top:20px;
+      cursor:pointer;
+    }
+    .q-submit:hover,.q::selection{
+      background-color: #6deded;
+    }
+    form{
+      margin-bottom:30px;
+      padding-top:10px;
+    }
+    .q-water-footprint1{
+       text-align: center;
+    }
+    .color-change{
+        color:#8EFAFA;
+    }
